@@ -1,0 +1,16 @@
+.search-wrapper
+  input#search(ng-model= "searchCar" placeholder="What car are you looking for?")
+.cartable
+  table.bordered.striped.centered.resposive-tablem
+    thead
+      tr
+        th(data-field = "details") Name
+        th(data-field = "color") Color
+        th(data-field = "details") Details
+
+    tbody 
+      tr(ng-repeat="car in cars | filter: searchCar")
+        td {{car.name}} 
+        td {{car.color}}  
+        td {{car.details}}    
+  

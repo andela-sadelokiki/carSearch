@@ -1,0 +1,10 @@
+.carstable: {
+    margin-top: 9em,
+}
+
+.search-wrapper {
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}

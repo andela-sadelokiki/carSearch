@@ -1,0 +1,17 @@
+{
+  "name": "isearch",
+  "description": "an app to search from a list of posts",
+  "main": "index.js",
+  "authors": [
+    "Susan Adelokiki"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

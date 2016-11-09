@@ -1,0 +1,16 @@
+{
+  "name": "isearch",
+  "version": "1.0.0",
+  "description": "an app to search from a list of posts",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "./node_modules/.bin/jasmine-node spec/carspec.js"
+  },
+  "author": "Susan Adelokiki",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
